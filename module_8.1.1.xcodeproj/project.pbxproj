@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B802019A282B5499002A9033 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8020199282B5499002A9033 /* Data.swift */; };
 		B8824BC0282528A500E3D522 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8824BBF282528A500E3D522 /* AppDelegate.swift */; };
 		B8824BC2282528A500E3D522 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8824BC1282528A500E3D522 /* SceneDelegate.swift */; };
 		B8824BC4282528A500E3D522 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8824BC3282528A500E3D522 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B8020199282B5499002A9033 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		B8824BBC282528A500E3D522 /* module_8.1.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = module_8.1.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8824BBF282528A500E3D522 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8824BC1282528A500E3D522 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B8020196282B544B002A9033 /* App-utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B8824BCB282528A700E3D522 /* Assets.xcassets */,
+			);
+			path = "App-utilities";
+			sourceTree = "<group>";
+		};
+		B8020197282B5482002A9033 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B8020199282B5499002A9033 /* Data.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B802019D282B54E0002A9033 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B8824BC3282528A500E3D522 /* ViewController.swift */,
+				B8824BBF282528A500E3D522 /* AppDelegate.swift */,
+				B8824BC1282528A500E3D522 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B802019E282B550F002A9033 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B8824BCD282528A700E3D522 /* LaunchScreen.storyboard */,
+				B8824BC5282528A500E3D522 /* Main.storyboard */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 		B8824BB3282528A500E3D522 = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +95,12 @@
 		B8824BBE282528A500E3D522 /* module_8.1.1 */ = {
 			isa = PBXGroup;
 			children = (
-				B8824BBF282528A500E3D522 /* AppDelegate.swift */,
-				B8824BC1282528A500E3D522 /* SceneDelegate.swift */,
-				B8824BC3282528A500E3D522 /* ViewController.swift */,
-				B8824BC5282528A500E3D522 /* Main.storyboard */,
-				B8824BCB282528A700E3D522 /* Assets.xcassets */,
-				B8824BCD282528A700E3D522 /* LaunchScreen.storyboard */,
+				B802019E282B550F002A9033 /* Screens */,
+				B8020197282B5482002A9033 /* Models */,
 				B8824BD0282528A700E3D522 /* Info.plist */,
 				B8824BC8282528A500E3D522 /* module_8_1_1.xcdatamodeld */,
+				B802019D282B54E0002A9033 /* App */,
+				B8020196282B544B002A9033 /* App-utilities */,
 			);
 			path = module_8.1.1;
 			sourceTree = "<group>";
@@ -86,6 +121,8 @@
 			dependencies = (
 			);
 			name = module_8.1.1;
+			packageProductDependencies = (
+			);
 			productName = module_8.1.1;
 			productReference = B8824BBC282528A500E3D522 /* module_8.1.1.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +151,8 @@
 				Base,
 			);
 			mainGroup = B8824BB3282528A500E3D522;
+			packageReferences = (
+			);
 			productRefGroup = B8824BBD282528A500E3D522 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -142,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8824BC4282528A500E3D522 /* ViewController.swift in Sources */,
+				B802019A282B5499002A9033 /* Data.swift in Sources */,
 				B8824BC0282528A500E3D522 /* AppDelegate.swift in Sources */,
 				B8824BCA282528A500E3D522 /* module_8_1_1.xcdatamodeld in Sources */,
 				B8824BC2282528A500E3D522 /* SceneDelegate.swift in Sources */,

@@ -1,18 +1,9 @@
-//
-//  AppDelegate.swift
-//  module_8.1.1
-//
-//  Created by Sanjar Aslonov on 06/05/22.
-//
-
 import UIKit
 import CoreData
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
